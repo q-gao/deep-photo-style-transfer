@@ -13,6 +13,7 @@ Dependencies:
   * `luarocks install matio`
   * In Ubuntu 16.04 you need to use `gcc-5: CC=gcc-5 CXX=g++-5 luarocks install loadcaffe`
 * [Matlab](https://www.mathworks.com/) or [Octave](https://www.gnu.org/software/octave/)
+  * [Install octave on Ubuntu 16.04](https://medium.com/@manivannan_data/install-octave-on-ubuntu-16-04-d76f97e0d504)
 
 CUDA backend:
 * [CUDA](https://developer.nvidia.com/cuda-downloads)
