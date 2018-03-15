@@ -9,6 +9,9 @@ This code is based on torch. It has been tested on Ubuntu 14.04 LTS.
 
 Dependencies:
 * [Torch](https://github.com/torch/torch7) (with [matio-ffi](https://github.com/soumith/matio-ffi.torch) and [loadcaffe](https://github.com/szagoruyko/loadcaffe))
+  * `sudo apt-get install libmatio2`
+  * `luarocks install matio`
+  * In Ubuntu 16.04 you need to use `gcc-5: CC=gcc-5 CXX=g++-5 luarocks install loadcaffe`
 * [Matlab](https://www.mathworks.com/) or [Octave](https://www.gnu.org/software/octave/)
 
 CUDA backend:
