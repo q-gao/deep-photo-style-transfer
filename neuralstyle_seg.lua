@@ -250,6 +250,7 @@ local function main(params)
   end
   
   -- Run optimization.
+  -- http://aria42.com/blog/2014/12/understanding-lbfgs
   local x, losses = optim.lbfgs(feval, img, optim_state)  
 end
  
